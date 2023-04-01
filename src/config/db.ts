@@ -6,7 +6,7 @@ mongoose.set('strictQuery', true);
 export default (async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://raghu-webla:GSIkbF7T0AOqGKYQ@cluster0.12jgyme.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://webla-admin:B7jb4SO1of5i5i60@cluster0.qw3rg03.mongodb.net/ecommerce?retryWrites=true&w=majority',
      );
     // listen for requests
     console.log('The Conection is Ok'); 
